@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/design/design"
+  ],
+  "window": {
+    "navigationBarTitleText": "已己",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#555555",
+    "backgroundTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "white",
+    "selectedColor": "green",
+    "backgroundColor": "black",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "原设"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "民创"
+    }, {
+      "pagePath": "pages/design/design",
+      "text": "当地"
+    }]
+  },
+  "debug": true
+}
